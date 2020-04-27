@@ -1,5 +1,33 @@
 .mainPic {
-  height: 6em;
+  height: 10em;
   
-  border-radius: 75px;
+  border-radius: 60%;
+}
+
+.sidebar {
+  background-color: whitesmoke;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding-top: 60px;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  .navButtons{
+    margin: 1em;
+  }
+}
+
+.social {
+  margin-top: 2em;
 }
