@@ -1,7 +1,10 @@
 .mainPic {
   height: 10em;
-  
   border-radius: 60%;
+}
+
+.sidebarDescription {
+  margin-bottom: 4em;
 }
 
 .sidebar {
@@ -21,13 +24,21 @@
   display: flex;
   flex-direction: column;
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 
   .navButtons{
-    margin: 1em;
+    margin: 1.5em;
   }
 }
 
 .social {
-  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+ 
+  a {
+    margin: 0.5em;
+    color: black;
+  }
+  
 }
+

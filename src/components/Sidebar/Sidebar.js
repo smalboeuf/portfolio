@@ -16,7 +16,10 @@ export default function Sidebar(props) {
         <a className="navButtons">Skills</a>
         <a className="navButtons">Resume</a>
       </div>
-      <div className="social">github, linkedIn, </div>
+      <div className="social">
+        <a className="socialIcon" target="_blank" href="https://github.com/smalboeuf" class="fa fa-github fa-3x"></a>
+        <a className="socialIcon" target="_blank" href="https://www.linkedin.com/in/sheldon-malboeuf-18431a179/" class="fa fa-linkedin fa-3x"></a>
+      </div>
     </section>
   );
 
