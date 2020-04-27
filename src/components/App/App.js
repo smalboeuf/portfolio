@@ -18,7 +18,7 @@ const RESUME = 'RESUME';
 function App() {
 
   const [state, setState] = useState({
-    view: WELCOME
+    view: ABOUT
   });
 
 
@@ -42,6 +42,9 @@ function App() {
 
       {state.view === WELCOME && (
         <Welcome />
+      )}
+      {state.view === ABOUT && (
+        <About />
       )}
 
 
