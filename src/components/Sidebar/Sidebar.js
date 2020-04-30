@@ -5,7 +5,7 @@ export default function Sidebar(props) {
 
   return (
     <section className="sidebar">
-      <img className="mainPic" src="/images/profilePicSquare.jpg"></img>
+      <img alt="ProfilePicture" className="mainPic" src="/images/profilePicSquare.jpg"></img>
       <div className="sidebarDescription">
         <h3>Sheldon Malboeuf</h3>
         <h4>Full-Stack Developer </h4>
@@ -19,8 +19,8 @@ export default function Sidebar(props) {
         <a onClick={props.onGameProjects} className="navButtons">Game Projects</a>
       </div>
       <div className="social">
-        <a className="socialIcon" target="_blank" href="https://github.com/smalboeuf" class="fa fa-github fa-3x"></a>
-        <a className="socialIcon" target="_blank" href="https://www.linkedin.com/in/sheldon-malboeuf-18431a179/" class="fa fa-linkedin fa-3x"></a>
+        <a className="socialIcon" target="_blank" href="https://github.com/smalboeuf" className="fa fa-github fa-3x"></a>
+        <a className="socialIcon" target="_blank" href="https://www.linkedin.com/in/sheldon-malboeuf-18431a179/" className="fa fa-linkedin fa-3x"></a>
       </div>
     </section>
   );

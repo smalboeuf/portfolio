@@ -10,18 +10,17 @@ import GameProjects from "../GameProjects/GameProjects";
 
 const WELCOME = 'WELCOME';
 const ABOUT = 'ABOUT';
-const PROJECTS = 'PROJECTS';
 const SKILLS = 'SKILLS';
-const RESUME = 'RESUME';
-const GAME_PROJECTS = 'GAME_PROJECTS';
 const WEB_PROJECTS = 'WEB_PROJECTS';
+const GAME_PROJECTS = 'GAME_PROJECTS';
+
 
 
 
 function App() {
 
   const [state, setState] = useState({
-    view: SKILLS
+    view: WEB_PROJECTS
   });
 
 
@@ -33,7 +32,6 @@ function App() {
   }
 
 
-
   return (
     <div className="App">
 
@@ -42,7 +40,6 @@ function App() {
         onAbout={() => changeView(ABOUT)}
         onSkills={() => changeView(SKILLS)}
         onWebProjects={() => {
-          console.log("yo");
           changeView(WEB_PROJECTS)
         }}
         onGameProjects={() => changeView(GAME_PROJECTS)} />

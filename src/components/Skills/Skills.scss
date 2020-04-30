@@ -1,21 +1,27 @@
+.skillsPage {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .skillsBox {
   display: flex;
   flex-direction: row;
-  height: 10rem;
   align-items: center;
   justify-content: center;
 
+
   .category {
-    height: 10rem;
     padding: 2rem;
     min-width: 10em;
-    min-height: 30em;
-    margin-top: 25em;
     border-radius: 15px;
     background-color: skyblue;
     border-style: solid;
     border-color: white;
     border-width: 0.1em;
     border-right: 1px solid white;
+    margin-left: 1em;
+    
   }
 }
+
