@@ -2,7 +2,7 @@ import React from "react";
 import './Project.scss';
 
 
-const
+
 
 
 
@@ -10,10 +10,14 @@ const
 export default function Project(props) {
 
   return (
-    <div>
+    <div className="project">
       <img className="projectImage" src={props.project.image}></img>
-      <h4 className="projectTitle">{props.project.title}</h4>
-      <p className="projectDescription">{props.project.description}</p>
+      <div className="projectInfo">
+        <h4 className="projectTitle">{props.project.title}</h4>
+        <p className="projectDescription">{props.project.description}</p>
+        <p>Stack: {props.project.stack}</p>
+        <a href={props.project.github}>Github</a>
+      </div>
     </div>
   );
 }

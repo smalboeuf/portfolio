@@ -1,0 +1,22 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 20em;
+  margin: 3em;
+  padding: 2em;
+  border-radius: 15px;
+
+  .projectInfo {
+    padding: 1.5em;
+  }
+  
+  .projectImage {
+    height: 200px;
+  }
+
+  .projectDescription {
+    line-height: normal;
+    font-size: small;
+  } 
+}
