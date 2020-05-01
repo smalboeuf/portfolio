@@ -1,7 +1,7 @@
 .skillsPage {
   display: flex;
   flex-direction: column;
-
+  margin-top: 3em;
 }
 
 .skillsBox {
@@ -9,7 +9,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
+  
 
   .category {
     padding: 2rem;

@@ -1,6 +1,7 @@
 .initialsIcon {
   height: 10em;
   margin-bottom: 2em;
+  margin-top: 11em;
 }
 
 p {
@@ -8,5 +9,26 @@ p {
 }
 
 .welcomePage {
-  margin-top: 11em;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mainImage {
+  width: 105%;
+  opacity: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.greeting {
+  position:absolute;
+  z-index: 1;
+}
+
+body {
+  overflow: hidden;
 }

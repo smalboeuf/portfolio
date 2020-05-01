@@ -1,6 +1,17 @@
+@import '../../styles/palette.scss';
+
 .aboutDescription {
   margin-top: 15em;
+  margin-left: 10em;
+  margin-right: 10em;
+  background-color: #AAEFDF;
+  border-radius: 15px;
+  padding: 1em;
 }
 .aboutPage {
   margin-top: 11em;
+}
+
+body {
+  background-color: rgba(57, 230, 166, 0.774);
 }

@@ -20,7 +20,7 @@ const GAME_PROJECTS = 'GAME_PROJECTS';
 function App() {
 
   const [state, setState] = useState({
-    view: WEB_PROJECTS
+    view: WELCOME
   });
 
 

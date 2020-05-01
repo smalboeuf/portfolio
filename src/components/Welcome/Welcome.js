@@ -6,9 +6,12 @@ export default function Welcome(props) {
 
   return (
     <div className="welcomePage">
-      <img alt="InitialsIcon" className="initialsIcon" src="/images/smIcon.png"></img>
-      <h2>Hi, I'm Sheldon. Nice to meet you. </h2>
-      {/* Require a nice background photo */}
+      <div className="greeting">
+        <img alt="InitialsIcon" className="initialsIcon" src="/images/smIcon.png"></img>
+        <h2>Hi, I'm Sheldon. Nice to meet you. </h2>
+      </div>
+      <img className="mainImage" alt="Main" src="/images/Bonsai.jpg"></img>
+
     </div>
   );
 }
