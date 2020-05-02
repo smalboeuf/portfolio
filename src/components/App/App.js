@@ -25,26 +25,9 @@ function App() {
     view: ALL_ONE
   });
 
-
-  const changeView = (viewName) => {
-    setState({
-      ...state,
-      view: viewName
-    })
-  }
-
-
   return (
     <div className="App">
-
-      <Sidebar
-        onWelcome={() => changeView(WELCOME)}
-        onAbout={() => changeView(ABOUT)}
-        onSkills={() => changeView(SKILLS)}
-        onWebProjects={() => {
-          changeView(WEB_PROJECTS)
-        }}
-        onGameProjects={() => changeView(GAME_PROJECTS)} />
+      <Sidebar />
 
       {state.view === WELCOME && (
         <Welcome />

@@ -5,16 +5,15 @@
   flex-direction: column;
   margin-top: 25em;
   background-color: white;
-  padding-top: 8em;
+  padding-top: 5em;
   padding-bottom: 12em;
 }
 
 .skillsBox {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 
   .category {
     padding: 2rem;
@@ -29,5 +28,17 @@
     background-color: #AAEFDF;
     
   }
+}
+
+
+@media only screen and (min-width: 1024px) { 
+  .skillsBox {
+    flex-direction: row;
+
+    .category {
+      margin: 2em;
+    }
+  }
+
 }
 

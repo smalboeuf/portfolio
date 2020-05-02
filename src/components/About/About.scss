@@ -2,17 +2,20 @@
 
 .aboutDescription {
   // margin-top: 2em;
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 3em;
+  margin-right: 3em;
   background-color: $text;
   border-radius: 15px;
   padding: 1em;
 }
 .aboutPage {
-  margin-top: 22em;
-  
+  margin-top: 22em;  
 }
 
-body {
-  background-color: #AAEFDF;
+@media only screen and (min-width: 1024px) {
+
+  .aboutDescription {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
 }

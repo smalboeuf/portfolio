@@ -31,7 +31,7 @@ export default function Sidebar(props) {
           to="skills"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={20}
           duration={500}>Skills</Link></a>
         <a href="#" className="navButtons"><Link activeClass="active"
           to="webProjects"

@@ -37,28 +37,34 @@
   }
 }
 
-body {
-  margin-left: 20em;
+.sidebar {
+  display:none;
 }
 
-.mainProgram {
-  display: flex;
-  flex-direction: column;
+body {
+  background-color: #AAEFDF;
 }
+
 
 /* Desktop style */
 @media only screen and (min-width: 1024px) {
-  
-  .responsiveFlow {
-    flex-direction: row;
-  }
-  //Show sidebar
 
-  header {
-    width: 45%;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 3%;
+  //need to make the sidebar dissapear
+
+  .mainProgram {
+    display: flex;
+    flex-direction: column;
   }
+
+  body {
+    margin-left: 20em;
+  }
+
+  .sidebar {
+    display: inline;
+    flex-direction: column;
+  }
+
+
 
 }
