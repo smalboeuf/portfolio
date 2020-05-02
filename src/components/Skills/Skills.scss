@@ -3,7 +3,10 @@
 .skillsPage {
   display: flex;
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 25em;
+  background-color: white;
+  padding-top: 8em;
+  padding-bottom: 12em;
 }
 
 .skillsBox {
@@ -23,6 +26,7 @@
     border-width: 0.1em;
     border-right: 1px solid white;
     margin-left: 1em;
+    background-color: #AAEFDF;
     
   }
 }

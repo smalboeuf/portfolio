@@ -13,14 +13,14 @@ const ABOUT = 'ABOUT';
 const SKILLS = 'SKILLS';
 const WEB_PROJECTS = 'WEB_PROJECTS';
 const GAME_PROJECTS = 'GAME_PROJECTS';
-
+const ALL_ONE = 'ALL_ONE';
 
 
 
 function App() {
 
   const [state, setState] = useState({
-    view: WELCOME
+    view: ALL_ONE
   });
 
 
@@ -58,6 +58,15 @@ function App() {
       )}
       {state.view === GAME_PROJECTS && (
         <GameProjects />
+      )}
+      {state.view === ALL_ONE && (
+        <div className='mainProgram'>
+          <Welcome />
+          <About />
+          <Skills />
+          <WebProjects />
+          <GameProjects />
+        </div>
       )}
 
     </div>

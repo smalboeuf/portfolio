@@ -11,25 +11,23 @@ p {
 .welcomePage {
   display: flex;
   justify-content: center;
-  height: 100%;
   width: 100%;
-  overflow: hidden;
   background-color: white;
+  padding-bottom: 25em;
 }
 
-.mainImage {
-  width: 105%;
-  opacity: 65%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+// .mainImage {
+//   width: 105%;
+//   opacity: 65%;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
 
 .greeting {
-  position:absolute;
+  // position:absolute;
   z-index: 1;
 }
 
-body {
-  overflow: hidden;
-}
+
+

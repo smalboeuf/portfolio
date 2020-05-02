@@ -37,8 +37,12 @@
   }
 }
 
-
 body {
-  height: 100%;
+
   margin-left: 18em;
+}
+
+.mainProgram {
+  display: flex;
+  flex-direction: column;
 }

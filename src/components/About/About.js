@@ -7,8 +7,8 @@ export default function About(props) {
 
   return (
     <div className="aboutPage">
+      <h2>About Me.</h2>
       <section className="aboutDescription">
-        <h2>About Me.</h2>
         <p>I am a technology enthusiast who strives to create. </p>
         <p> I have always been driven to learn
         more about tech and understand how to create successful outcomes. I consider myself
