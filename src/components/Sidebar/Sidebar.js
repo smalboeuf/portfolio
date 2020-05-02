@@ -9,7 +9,7 @@ export default function Sidebar(props) {
       <div className="sidebarDescription">
         <h3>Sheldon Malboeuf</h3>
         <h4>Full-Stack Developer </h4>
-        <a href="mailto:smalboeuf01@gmail.com?Subject=Inquiry" target="_top">smalboeuf01@gmail.com</a>
+        <a className="email" href="mailto:smalboeuf01@gmail.com?Subject=Inquiry" target="_top">smalboeuf01@gmail.com</a>
       </div>
       <div className="navbar">
         <a href="#" onClick={props.onWelcome} className="navButtons">Welcome</a>

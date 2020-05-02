@@ -9,8 +9,9 @@ export default function Welcome(props) {
       <div className="greeting">
         <img alt="InitialsIcon" className="initialsIcon" src="/images/smIcon.png"></img>
         <h2>Hi, I'm Sheldon. Nice to meet you. </h2>
+        <h2>Full-stack developer utilizing his creativity and passion in games and the web.</h2>
       </div>
-      <img className="mainImage" alt="Main" src="/images/Bonsai.jpg"></img>
+      {/* <img className="mainImage" alt="Main" src="/images/Bonsai.jpg"></img> */}
 
     </div>
   );

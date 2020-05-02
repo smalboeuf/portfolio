@@ -4,7 +4,7 @@
   margin-top: 15em;
   margin-left: 10em;
   margin-right: 10em;
-  background-color: #AAEFDF;
+  background-color: $text;
   border-radius: 15px;
   padding: 1em;
 }
@@ -13,5 +13,5 @@
 }
 
 body {
-  background-color: rgba(57, 230, 166, 0.774);
+  background-color: $background;
 }

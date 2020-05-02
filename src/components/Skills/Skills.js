@@ -25,7 +25,6 @@ export default function Skills(props) {
           <p>NodeJS</p>
           <p>Express</p>
           <p>Ruby on Rails</p>
-          <p>Socket.io</p>
           <p>JQuery</p>
           <p>Ajax</p>
           <p>Axios</p>

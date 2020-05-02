@@ -1,3 +1,5 @@
+@import '../../styles/palette.scss';
+
 .skillsPage {
   display: flex;
   flex-direction: column;
@@ -15,7 +17,7 @@
     padding: 2rem;
     min-width: 10em;
     border-radius: 15px;
-    background-color: skyblue;
+    background-color: $text;
     border-style: solid;
     border-color: white;
     border-width: 0.1em;
