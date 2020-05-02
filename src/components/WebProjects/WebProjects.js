@@ -13,7 +13,7 @@ export default function WebProjects(props) {
 
 
   return (
-    <div className="webProjectsPage">
+    <div className="webProjectsPage" id="webProjects">
       <h2>Web Development Projects</h2>
       <div className="projects">
         {allProjects}

@@ -13,7 +13,7 @@ export default function GameProjects(props) {
 
 
   return (
-    <div className="gameProjectsPage">
+    <div className="gameProjectsPage" id="gameProjects">
       <h2>Game Development Projects</h2>
       <div className="projects">
         {allProjects}

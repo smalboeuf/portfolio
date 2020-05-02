@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.scss';
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import Sidebar from "../Sidebar/Sidebar";
 import Welcome from "../Welcome/Welcome";
 import About from "../About/About";

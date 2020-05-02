@@ -1,10 +1,13 @@
 import React from "react";
 import './Sidebar.scss';
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
+
 export default function Sidebar(props) {
 
   return (
-    <section className="sidebar">
+    <section className="sidebar" id="sidebar">
       <img alt="ProfilePicture" className="mainPic" src="/images/profilePicSquare.jpg"></img>
       <div className="sidebarDescription">
         <h3>Sheldon Malboeuf</h3>
@@ -12,11 +15,36 @@ export default function Sidebar(props) {
         <a className="email" href="mailto:smalboeuf01@gmail.com?Subject=Inquiry" target="_top">smalboeuf01@gmail.com</a>
       </div>
       <div className="navbar">
-        <a href="#" onClick={props.onWelcome} className="navButtons">Welcome</a>
-        <a href="#" onClick={props.onAbout} className="navButtons">About</a>
-        <a href="#" onClick={props.onSkills} className="navButtons">Skills</a>
-        <a href="#" onClick={props.onWebProjects} className="navButtons">Web Projects</a>
-        <a href="#" onClick={props.onGameProjects} className="navButtons">Game Projects</a>
+        <a href="#" className="navButtons"> <Link activeClass="active"
+          to="welcome"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}>Welcome</Link></a>
+        <a href="#" className="navButtons"><Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-150}
+          duration={500}>About </Link></a>
+        <a href="#" className="navButtons"><Link activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}>Skills</Link></a>
+        <a href="#" className="navButtons"><Link activeClass="active"
+          to="webProjects"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}>Web Projects</Link></a>
+        <a href="#" className="navButtons"><Link activeClass="active"
+          to="gameProjects"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}>Game Projects</Link></a>
       </div>
       <div className="social">
         <a className="socialIcon" rel="noopener noreferrer" target="_blank" href="https://github.com/smalboeuf" className="fa fa-github fa-3x"> </a>

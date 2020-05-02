@@ -5,7 +5,7 @@ import "./Skills.scss";
 export default function Skills(props) {
 
   return (
-    <div className="skillsPage">
+    <div className="skillsPage" id="skills">
       <h2>Skills</h2>
       <div className="skillsBox">
         <div className="category">

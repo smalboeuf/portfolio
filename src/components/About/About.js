@@ -6,7 +6,7 @@ import "./About.scss";
 export default function About(props) {
 
   return (
-    <div className="aboutPage">
+    <div className="aboutPage" id="about">
       <h2>About Me.</h2>
       <section className="aboutDescription">
         <p>I am a technology enthusiast who strives to create. </p>

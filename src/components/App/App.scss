@@ -38,11 +38,27 @@
 }
 
 body {
-
-  margin-left: 18em;
+  margin-left: 20em;
 }
 
 .mainProgram {
   display: flex;
   flex-direction: column;
+}
+
+/* Desktop style */
+@media only screen and (min-width: 1024px) {
+  
+  .responsiveFlow {
+    flex-direction: row;
+  }
+  //Show sidebar
+
+  header {
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 3%;
+  }
+
 }
