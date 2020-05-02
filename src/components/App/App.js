@@ -4,6 +4,7 @@ import './App.scss';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import Sidebar from "../Sidebar/Sidebar";
+import MobileNavbar from "../MobileNavbar/MobileNavbar";
 import Welcome from "../Welcome/Welcome";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
@@ -25,25 +26,11 @@ function App() {
     view: ALL_ONE
   });
 
+
   return (
     <div className="App">
       <Sidebar />
-
-      {state.view === WELCOME && (
-        <Welcome />
-      )}
-      {state.view === ABOUT && (
-        <About />
-      )}
-      {state.view === SKILLS && (
-        <Skills />
-      )}
-      {state.view === WEB_PROJECTS && (
-        <WebProjects />
-      )}
-      {state.view === GAME_PROJECTS && (
-        <GameProjects />
-      )}
+      <MobileNavbar />
       {state.view === ALL_ONE && (
         <div className='mainProgram'>
           <Welcome />
