@@ -2,3 +2,11 @@
   position: fixed;
   width: 100%;
 }
+
+.bg-dark {
+  background-color: #9EE37D !important;
+}
+a:not([href]) {
+  color: whitesmoke;
+  text-decoration: none;
+}

@@ -27,13 +27,21 @@ p {
 
 .greeting {
   // position:absolute;
-  z-index: 1;
+  // z-index: 1;
 }
 
 .greetingContent {
   padding-left: 2em;
-
+  padding-right: 2em;
 }
 
+@media only screen and (min-width: 1024px) { 
+  .greetingContent {
+    padding-left: 10em;
+    padding-right: 5em;
+  
+  }
+
+}
 
 
