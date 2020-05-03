@@ -22,7 +22,7 @@ export default function MobileNavbar(props) {
             to="about"
             spy={true}
             smooth={true}
-            offset={-250}
+            offset={-200}
             duration={500}>About</Link></Nav.Link>
           <Nav.Link href="#pricing"><Link activeClass="active"
             to="skills"
@@ -35,13 +35,16 @@ export default function MobileNavbar(props) {
             spy={true}
             smooth={true}
             offset={-150}
-            duration={500}>Web Projects</Link></Nav.Link>
+            duration={500}>Web</Link></Nav.Link>
           <Nav.Link href="#pricing"><Link activeClass="active"
             to="gameProjects"
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}>Game Projects</Link></Nav.Link>
+            duration={500}>Games</Link></Nav.Link>
+          <Nav.Link href="#pricing"><a className="socialIcon" rel="noopener noreferrer" target="_blank" href="https://github.com/smalboeuf" className="fa fa-github fa-2x"> </a></Nav.Link>
+
+          <Nav.Link href="#pricing"><a className="socialIcon" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/sheldon-malboeuf-18431a179/" className="fa fa-linkedin fa-2x"> </a></Nav.Link>
         </Nav>
       </Navbar>
     </div>

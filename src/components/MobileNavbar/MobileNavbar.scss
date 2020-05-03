@@ -6,7 +6,22 @@
 .bg-dark {
   background-color: #9EE37D !important;
 }
-a:not([href]) {
-  color: whitesmoke;
-  text-decoration: none;
+
+.fa-github {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+.nav-link a {
+  color: black;
+}
+
+.navbar-dark .navbar-brand {
+  color: black;
+}
+
+.navbar-nav {
+  margin:auto;
 }
