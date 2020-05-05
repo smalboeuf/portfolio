@@ -10,7 +10,8 @@ export default function MobileNavbar(props) {
   return (
     <div className="mobileNav">
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Sheldon Malboeuf</Navbar.Brand>
+        <Navbar.Brand>Sheldon Malboeuf</Navbar.Brand>
+        <Navbar.Brand href="mailto:smalboeuf01@gmail.com?Subject=Inquiry">smalboeuf01@gmail.com</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home"><Link activeClass="active"
             to="welcome"
@@ -40,11 +41,8 @@ export default function MobileNavbar(props) {
             to="gameProjects"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-50}
             duration={500}>Games</Link></Nav.Link>
-          <Nav.Link href="#pricing"><a className="socialIcon" rel="noopener noreferrer" target="_blank" href="https://github.com/smalboeuf" className="fa fa-github fa-2x"> </a></Nav.Link>
-
-          <Nav.Link href="#pricing"><a className="socialIcon" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/sheldon-malboeuf-18431a179/" className="fa fa-linkedin fa-2x"> </a></Nav.Link>
         </Nav>
       </Navbar>
     </div>
