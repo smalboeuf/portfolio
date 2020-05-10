@@ -28,4 +28,5 @@ Projects Page:
 ![Projects](https://github.com/smalboeuf/portfolio/blob/master/docs/ProjectsExample.PNG)
 
 Mobile View:
+<br>
 ![Mobile](https://github.com/smalboeuf/portfolio/blob/master/docs/MobileSupported.PNG)
