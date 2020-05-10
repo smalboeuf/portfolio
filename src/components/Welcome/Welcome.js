@@ -13,7 +13,7 @@ export default function Welcome(props) {
         <div className="greetingContent">
           <h2>Hi, I'm Sheldon. Nice to meet you. </h2>
           <h2>
-            I am a Full-stack developer utilizing my creativity and passion in
+            I am a Full-Stack Developer utilizing my creativity and passion in
             games and the web.
           </h2>
         </div>
