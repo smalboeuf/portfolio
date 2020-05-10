@@ -1,4 +1,4 @@
-@import '../../styles/palette.scss';
+@import "../../styles/palette.scss";
 
 .skillsPage {
   display: flex;
@@ -25,13 +25,11 @@
     border-width: 0.1em;
     border-right: 1px solid white;
     margin-left: 1em;
-    background-color: #AAEFDF;
-    
+    background-color: #aaefdf;
   }
 }
 
-
-@media only screen and (min-width: 1024px) { 
+@media only screen and (min-width: 1024px) {
   .skillsBox {
     flex-direction: row;
 
@@ -39,6 +37,4 @@
       margin: 2em;
     }
   }
-
 }
-

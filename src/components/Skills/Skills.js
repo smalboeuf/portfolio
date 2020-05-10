@@ -1,9 +1,7 @@
 import React from "react";
 import "./Skills.scss";
 
-
 export default function Skills(props) {
-
   return (
     <div className="skillsPage" id="skills">
       <h2>Skills</h2>
@@ -39,7 +37,6 @@ export default function Skills(props) {
           <p>GraphQL</p>
         </div>
       </div>
-
     </div>
   );
 }
