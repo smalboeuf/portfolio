@@ -1,6 +1,5 @@
 import React from "react";
 import "./Project.scss";
-import classnames from "classnames";
 
 export default function Project(props) {
   const imageClass = props.constructed
@@ -8,7 +7,7 @@ export default function Project(props) {
     : "projectImage underConstruction";
 
   const underConstruction = props.constructed ? null : (
-    <h4 className="underConstruction">Under Construction</h4>
+    <p className="constructionHeader">Under Construction</p>
   );
 
   return (
@@ -20,7 +19,7 @@ export default function Project(props) {
           className={imageClass}
           src={props.project.image}
         ></img>
-        {underConstruction}
+        <div className="constructionPosition">{underConstruction}</div>
       </div>
       <div className="projectInfo">
         <p className="projectDescription">{props.project.description}</p>

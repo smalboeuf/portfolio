@@ -6,7 +6,13 @@ export default function WebProjects(props) {
   const allProjects =
     projectData &&
     projectData.map((project, index) => {
-      return <Project key={index} project={project} />;
+      return (
+        <Project
+          constructed={project.constructed}
+          key={index}
+          project={project}
+        />
+      );
     });
 
   return (
@@ -25,6 +31,7 @@ const projectData = [
     image: "/images/projects/SideQuests.PNG",
     github: "https://github.com/FelixPriori/side-quests",
     stack: "React, Express, NodeJS and PostgreSQL",
+    constructed: true,
   },
   {
     title: "Scheduler",
@@ -33,6 +40,7 @@ const projectData = [
     image: "/images/projects/Scheduler.png",
     github: "https://github.com/smalboeuf/scheduler",
     stack: "React, Express, NodeJS",
+    constructed: true,
   },
   {
     title: "Hooked",
@@ -41,6 +49,7 @@ const projectData = [
     image: "/images/projects/Hooked.png",
     github: "https://github.com/smalboeuf/hooked",
     stack: "Express, Node, PostgreSQL",
+    constructed: true,
   },
   {
     title: "Tweeter",
@@ -48,5 +57,6 @@ const projectData = [
     image: "/images/projects/Tweeter.png",
     github: "https://github.com/smalboeuf/tweeter",
     stack: "Express, JQuery, Node",
+    constructed: true,
   },
 ];

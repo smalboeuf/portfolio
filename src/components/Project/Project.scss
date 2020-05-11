@@ -34,6 +34,18 @@
   }
 }
 
+.constructionHeader {
+  color: whitesmoke;
+  position: absolute;
+  padding-bottom: 13em;
+}
+
+.constructionPosition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (min-width: 1024px) {
   .project {
     width: 18em;
