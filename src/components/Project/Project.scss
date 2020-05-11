@@ -12,23 +12,30 @@
   .projectInfo {
     padding: 1.5em;
   }
-  
+
   .projectImage {
     height: 200px;
     object-fit: cover;
   }
 
+  .underConstruction {
+    opacity: 0.4;
+  }
+
+  .imageContainer {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+  }
 
   .projectDescription {
     line-height: normal;
     font-size: small;
-  } 
+  }
 }
-
 
 @media only screen and (min-width: 1024px) {
   .project {
     width: 18em;
   }
-
 }
