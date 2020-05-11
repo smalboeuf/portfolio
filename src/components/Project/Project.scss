@@ -15,7 +15,10 @@
 
   .projectImage {
     height: 200px;
+    width: 100%;
+    object-position: center;
     object-fit: cover;
+    vertical-align: middle;
   }
 
   .underConstruction {
@@ -26,6 +29,7 @@
     width: 100%;
     background-color: black;
     overflow: hidden;
+    object-position: center;
   }
 
   .projectDescription {
